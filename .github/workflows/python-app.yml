@@ -1,12 +1,12 @@
 name: Python application
 
-on: [push,pull_request] 
+on: [pull_request] 
 permissions:
     contents: read
 
 jobs:
   build: 
-    runs-on: ubuntu-latets
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
