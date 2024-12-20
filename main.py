@@ -22,7 +22,7 @@ def main():
     else:
         print("opció no reconegudda")
 
-    print("Testing github actions")
+    print("Testing github actions -again-")
 
 
 if __name__ == '__main__':
