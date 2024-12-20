@@ -7,7 +7,7 @@ permissions:
 jobs:
   build: 
     runs-on: ubuntu-latest
-
+    
     steps:
     - uses: actions/checkout@v4
     - name: Setup de Python
@@ -24,4 +24,5 @@ jobs:
     - name: Anàlisis de codi amb linter pylint
       run: |
         pylint $(git ls-files '*.py')  
+
     
