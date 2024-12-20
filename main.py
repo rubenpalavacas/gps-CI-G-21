@@ -22,7 +22,7 @@ def main():
     else:
         print("opció no reconegudda")
 
-    print("Prova de github actions.")
+    print("Prova de github actions 2.")
 
 
 if __name__ == '__main__':
