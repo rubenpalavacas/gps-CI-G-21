@@ -20,7 +20,7 @@ jobs:
         pip install -r requirements.txt
     - name: Execució de test i code coverage
       run: |
-        pytest tests.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
+        pytest test.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
     - name: Anàlisis de codi amb linter pylint
       run: |
         pylint $(git ls-files '*.py')  
